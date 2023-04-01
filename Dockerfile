@@ -5,7 +5,7 @@ RUN wget -q -O JMusicBot.jar -- https://github.com/jagrosh/MusicBot/releases/dow
 
 #---#
 
-FROM openjdk:15-alpine
+FROM amazoncorretto:8u362-alpine3.17-jre
 
 ARG VERSION
 
