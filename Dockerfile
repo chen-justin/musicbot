@@ -1,6 +1,6 @@
 FROM alpine:latest as git
 RUN apk update
-ARG VERSION=0.3.9
+ARG VERSION=0.4.3
 RUN wget -q -O JMusicBot.jar -- https://github.com/jagrosh/MusicBot/releases/download/$VERSION/JMusicBot-$VERSION.jar
 
 #---#
